@@ -1,0 +1,35 @@
+/* Responsive Font Sizes */
+@media screen and (max-width: 540px) {
+  body { font-size: small; }
+}
+@media screen and (min-width: 540px) and (max-width: 1080px) {
+  body { font-size: normal; }
+}
+@media screen and (min-width: 1080px) and (max-width: 1620px) {
+  body { font-size: large; }
+}
+@media screen and (min-width: 1620px) and (max-width: 2160px) {
+  body { font-size: larger; }
+}
+@media screen and (min-width: 2160px) and (max-width: 2700px) {
+  body { font-size: x-large; }
+}
+@media screen and (min-width: 2700px) {
+  body { font-size: xx-large; }
+}
+
+/* Responsive Themes */
+@media (prefers-color-scheme: light) {
+  /* TODO: Light Mode */
+  html {
+    background-color: #DCDCC4;
+    color: #000000;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  /* TODO: Dark Mode */
+  html {
+    background-color: #000000;
+    color: #DCDCC4;
+  }
+}
